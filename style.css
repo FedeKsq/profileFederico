@@ -1,0 +1,265 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em; 
+}
+body {
+    background-color: RGB(151,157,172,.4);
+}
+
+
+header{
+    background-color: #343a40;
+    min-height: 2rem;
+
+}
+.lineImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+
+.profilepic{
+    max-width: 12rem;
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.pic{
+    max-width: 5rem;
+    height: 3rem;
+    width: 100%;
+
+}
+.pic-large{
+    max-width: 15rem;
+    height: 8rem;
+    width: 100%;
+    margin-left: 10rem;
+
+}
+
+.pic-xlarge{
+    max-width: 30rem;
+    height: 16rem;
+    width: 100%;
+    margin-left: 10rem;
+
+}
+.width-adjust{
+    width: auto;
+}
+
+.star-adjust{
+    max-width: 1rem;
+    height: .6rem;
+}
+
+.add-margin{
+    margin-left: 2em;
+}
+
+.add-marginSlide{
+    margin-left: 8em;
+}
+
+.remove-margin{
+    margin-left: -.3em;
+}
+
+#uady {
+    margin-left: auto;
+}
+#imguady2 {
+    margin-left: 13rem;
+}
+#imguady {
+    margin-left: 11rem;
+}
+h2 {
+    color: #343a40;
+}
+h3 {
+    color: #053a75;
+
+}
+h4 {
+    color: #044085;
+    font-weight: lighter;
+}
+
+ul {
+    color: #202325;
+    font-weight: lighter;
+}
+
+.aboutcard {
+    height: 15rem;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 3rem;
+    /* background-color: #7D8597;
+    border: 1px solid #33415C ; */
+
+}
+
+.subsec {
+    height: 15rem;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 3rem;
+
+}
+
+.section{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    /* margin-top: 4rem; */ 
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+ .about-section{
+     width: 100%;
+     display: flex;
+     align-items: flex-start;
+     margin-top: 1rem;
+     margin-left: auto;
+     margin-right: 5rem;
+ }
+
+.nameheader{
+    margin-top: auto;
+    margin-left: 8rem;
+    margin-right: 5rem;
+    color: #202325;
+    font-weight: bolder;
+    
+}
+.subclass-elemet{
+    color: #001845;
+    font-weight: normal;
+    margin-left: 1em ;
+
+}
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 2em;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.curly {
+    color: #202325;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.curlymini{
+    color: #202325;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: .8em;
+}
+.img-responsive{
+    max-width: 100%;
+    height: 15rem;
+    width: 12rem;
+
+}
+
+.rcorners {
+    border-radius: 8px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;;
+    color: white;
+    text-align: center;
+  }
+  .page-end{
+      margin-bottom: 5em;
+  }
+
+
+  * {box-sizing: border-box}
+  .mySlides1, .mySlides2, .mySlides3, .mySlides4 {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a grey background color */
+  .prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 150px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    outline: none; /* Remove outline */
+    /* background-color: red; /* Set a background color */
+
+    padding: 15px; /* Some padding */
+
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  #myBtn:hover {
+    background-color:  RGB(151,157,172,1; /* Add a dark-grey background on hover */
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
